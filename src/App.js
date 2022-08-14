@@ -11,7 +11,7 @@ class App extends Component {
   // }
 
   //*properties could be initialized like this also using ES2016 syntax, this will directly put the state variable in the constructor function',
-  state = {manager: 'gayab', players: [], balance: '', value:'', message:'',lastWinner:'', prizeAmount: 0};
+  state = {manager: '', players: [], balance: '', value:'', message:'',lastWinner:'', prizeAmount: 0};
 
 
    async componentDidMount () {
